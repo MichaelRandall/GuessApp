@@ -1,1 +1,59 @@
-body{}
+body{
+    font-family:'Arial Unicode MS',Arial,Helvetica, sans-serif;
+}
+
+/*--------------Layout--------------*/
+#container{
+    width:700px;
+    min-height:320px;
+    margin-left:auto;
+    margin-right:auto;
+    border:solid 1px #848484;
+    padding:10px;
+}
+#ui_holder{
+    display:inline-block;
+    vertical-align:top;
+    border:solid 2px #848484;
+    border-radius:10px;
+    padding:14px;
+}
+#game_board{
+    width:240px;
+    display:flex;
+    flex-wrap:wrap;
+}
+#interface_holder{
+    width:240px;
+    text-align:center;
+    margin-top:8px;
+}
+.tiles{
+    width:50px;
+    min-height:50px;
+    border:solid 1px #848484;
+    flex-grow:1;
+    margin:2px;
+    text-align:center;
+    line-height:50px;
+    font-size:26px;
+    font-family:'Arial Rounded MT';
+}
+button{
+    margin:2px;
+    width:236px;
+}
+#stats_holder{
+    width:200px;
+    display:inline-block;
+    margin-left:20px;
+}
+#stats_title{
+    margin-top:14px;
+}
+#stats_data{
+    margin-top:20px;
+}
+#time{}
+#total_guesses{}
+#incorrect_guesses{}
